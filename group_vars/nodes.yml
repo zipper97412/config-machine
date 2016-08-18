@@ -14,6 +14,8 @@ vsftpd_users:
   name: FTP User
   password: passwdftp
          
-bm_upload_ftp_user: ftpuser
-bm_upload_ftp_password: passwdftp
+bm_upload_method: ftp
+bm_upload_ftp_user: anonymous
+bm_upload_ftp_password: 
 bm_upload_ftp_hosts: localhost
+bm_upload_ftp_ttl: 5
