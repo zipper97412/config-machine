@@ -1,0 +1,10 @@
+firewall_v4_group_rules:
+  201 allow http:
+  - -A INPUT -p tcp --dport http -j ACCEPT
+  202 teamspeak:
+  - -A INPUT -p udp --dport 9987 -j ACCEPT
+  - -A INPUT -p tcp --dport 10011 -j ACCEPT
+  - -A INPUT -p tcp --dport 30033 -j ACCEPT
+    
+teamspeak_version: "3.0.13.2"
+

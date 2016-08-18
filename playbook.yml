@@ -1,0 +1,9 @@
+---
+- name: Hello Ansible - quick start
+  hosts: nodes
+    
+  roles:
+  - ansible-fail2ban
+  - ansible-role-firewall
+  - ansible-teamspeak
+  - ansible-role-apache
