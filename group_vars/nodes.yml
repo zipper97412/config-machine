@@ -8,3 +8,12 @@ firewall_v4_group_rules:
     
 teamspeak_version: "3.0.13.2"
 
+
+vsftpd_users:
+- username: ftpuser
+  name: FTP User
+  password: passwdftp
+         
+bm_upload_ftp_user: ftpuser
+bm_upload_ftp_password: passwdftp
+bm_upload_ftp_hosts: localhost
