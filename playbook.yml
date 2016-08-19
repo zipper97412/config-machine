@@ -8,4 +8,4 @@
   - ansible-teamspeak
   - ansible-role-apache
   - ansible-role-backupmanager
-  - ansible-vsftpd
+  - ansible-role-logwatch
